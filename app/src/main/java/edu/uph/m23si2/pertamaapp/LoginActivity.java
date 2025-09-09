@@ -153,7 +153,7 @@ public class LoginActivity extends AppCompatActivity {
         startActivity(intent);
     }
     public void toDashboard(){
-        Intent intent = new Intent(this,DashboardActivity.class);
+        Intent intent = new Intent(this,PasienActivity.class);
         startActivity(intent);
     }
 }
