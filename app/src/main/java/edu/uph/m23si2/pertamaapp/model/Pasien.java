@@ -24,6 +24,12 @@ public class Pasien {
         this.updated_at = updated_at;
     }
 
+    public Pasien(String nama, String nik, String alamat, String no_hp) {
+        this.alamat = alamat;
+        this.nama = nama;
+        this.nik = nik;
+        this.no_hp = no_hp;
+    }
     public String getAlamat() {
         return alamat;
     }
